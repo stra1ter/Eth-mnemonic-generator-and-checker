@@ -10,8 +10,8 @@ from colorama import Fore, Back, Style, init
 # Инициализация Colorama
 init()
 
-# Подключение к твоей легкой ноде
-w3 = Web3(Web3.HTTPProvider('http://localhost:8545'))  # Укажи адрес своей ноды
+# Connect to your node (you can use Infura)
+w3 = Web3(Web3.HTTPProvider('http://localhost:8545'))  # address of node
 
 # Функция для генерации сид-фразы
 def generate_seed_phrase():
